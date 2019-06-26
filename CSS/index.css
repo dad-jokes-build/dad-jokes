@@ -126,3 +126,101 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  background: #598;
+}
+#page {
+  overflow: auto;
+  height: 100%;
+}
+#headerimage {
+  width: 100px;
+  margin-top: 25px;
+  position: relative;
+}
+#headertext {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-size: 250%;
+  color: black;
+}
+#nav,
+#welcome,
+#copyright {
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 10px;
+}
+#welcomeparagraph:first-letter {
+  font-size: 150%;
+}
+h2,
+h3 {
+  text-transform: uppercase;
+}
+li {
+  display: inline;
+  padding: 7px;
+  margin: 7px;
+  font-size: 125%;
+}
+a:link,
+a:visited {
+  border: 1px solid white;
+  color: black;
+  padding: 7px;
+  margin: 7px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  background-color: grey;
+  border: 1px solid black;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */;
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
