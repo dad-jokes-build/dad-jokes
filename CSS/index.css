@@ -184,6 +184,9 @@ a:active {
   background-color: grey;
   border: 1px solid black;
 }
+button {
+  margin: 25px;
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
 select,
