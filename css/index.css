@@ -261,7 +261,7 @@ a:hover::after {
   color: #177E89;
 }
 .container {
-  border-radius: 55px;
+  border-radius: 15px 50px 30px;
   height: 100px;
   background: #31393C;
   overflow: auto;
@@ -270,7 +270,11 @@ a:hover::after {
   padding: 20px;
 }
 button {
-  margin: 25px;
+  width: 10%;
+  background: none;
+  border: none;
+  color: #1E6AE1;
+  display: inline-block;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
@@ -356,8 +360,8 @@ input[type=submit]:hover {
 }
 .footer {
   text-align: center;
-  margin-bottom: 30px;
-  position: fixed;
+  position: absolute;
+  bottom: 0;
 }
 p {
   font-size: 2rem;
