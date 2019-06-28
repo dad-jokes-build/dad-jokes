@@ -1,31 +1,43 @@
 .nav-border {
     .flexcol();
     border-bottom: 1px solid;
-   background-color: beige;
+    background-color: beige;
     height: 130px;
-  
+
+
+    @media @phone {
+        width: 100%;
+    }
+
     h1 {
-         margin-top: 9rem;
-         margin-right: 65rem;
-      font-size: 6rem;
-      align-content: center;
-     
+
+        margin-right: 65px;
+        font-size: 6rem;
+        align-content: center;
+
+        @media @phone {
+
+            margin-left: 70%;
+            width: 100%
+        }
     }
-  }
-  
-  .nav-content {
+}
+
+.nav-content {
     nav {
-      .navflex();
-      margin-top: 2rem;
-      font-size: 3rem;
-      
-  
-      a {
-        text-decoration: none;
-        padding: 0 1.3rem;
-    
-        margin-bottom: 3rem;
-      }
+        .navflex();
+        margin-top: 2rem;
+        font-size: 3rem;
+
+        a {
+            text-decoration: none;
+            padding: 0 1.3rem;
+            margin-bottom: 7rem;
+
+            @media @phone {
+                width: 100%;
+                margin-bottom: 1px;
+            }
+        }
     }
-  }
-  
+}
