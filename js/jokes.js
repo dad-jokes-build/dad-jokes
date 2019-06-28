@@ -18,4 +18,3 @@ let jokes = document.querySelectorAll(".joke");
 jokes.forEach((jokeElement) => {
   return new Joke(jokeElement);
 })
-

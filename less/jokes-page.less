@@ -1,3 +1,4 @@
+
 .header{
 //   background: #99ccff;
 // margin-bottom: -100px;
@@ -14,16 +15,64 @@
    padding: 0;   
    margin-top: 100px;
    margin-bottom: 75px;
+=======
+.header {
+  background: #99ccff;
+  margin-bottom: -100px;
+  margin-top: -55px;
+
+  @media @phone {
+    width: 100%;
+  }
+}
+
+.banner {
+  margin-left: 500px;
+  margin-bottom: 100px;
+
+  @media @phone {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 5rem;
+  }
+}
+
+h3 {
+  color: #1F4A13;
+  font-size: 8rem;
+  padding: 0;
+  margin-top: 100px;
+  margin-left: 525px;
+  margin-bottom: 75px;
+
+  @media @tablet {
+    width: 100%;
+    margin-top: 100px;
+    font-size: 5rem;
+    height: 25px;
+  }
+
+  @media @phone {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 100px;
+    font-size: 5rem;
+    height: 25px;
+  }
+
 }
 
 .jokes {
   margin-top: 95px;
+
   
   
+=======
+  background: #99ccff;
+
 }
 
 .joke {
-
   margin: 3% 10%;
   text-align: center;
   padding: 0 20px 25px;
@@ -33,7 +82,11 @@
   background: #b800e6;
   overflow: hidden;
   box-shadow: 2px 2px 2px lightgrey;
-  border: 3px solid red;
+
+  @media @phone {
+    height: 165px
+  }
+
 
   // h2 {
   //   font-size: 45px;
@@ -49,6 +102,31 @@
   //   font-weight: bolder;
   //   color: #ffa64d;
   // }
+=======
+  h2 {
+    font-size: 45px;
+    padding: 0;
+    margin: 15px 0 0;
+    font-weight: bold;
+    color: #b3d9ff;
+
+    @media @phone {
+      font-size: 35px;
+    }
+  }
+
+  p {
+    font-size: 55px;
+    margin-top: 75px;
+    font-weight: bolder;
+    color: #ffa64d;
+
+    @media @phone {
+      margin-top: 80px;
+      font-size: 35px;
+    }
+  }
+
 
   .close {
     position: absolute;
@@ -66,8 +144,16 @@
     font-weight: bolder;
     transform: translate(-50%);
     background-color: #e6e600;
+
+    @media @phone {
+      font-size: 30px;
+    }
   }
 
 .joke-open {
   height: 300px;
+
+  @media @phone {
+    height: 400px;
+  }
 }
