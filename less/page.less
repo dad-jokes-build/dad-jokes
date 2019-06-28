@@ -2,7 +2,7 @@ body {
   width: 960px;
   margin: 0 auto;
   text-align: center;
-  background: #598;
+  background: @background-color;;
 }
 
 #page {
@@ -12,9 +12,7 @@ height: 100%;
 
 #headerimage {
   width: 50%;
-  margin-top: 50px;
   position: relative;
-  padding:50px;
 }
 
 #headertext {
@@ -24,7 +22,7 @@ height: 100%;
   width: 100%;
   letter-spacing: 7px;
   text-transform: uppercase;
-  font-size: 250%;
+  font-size: 300%;
   color: black;
 }
 
@@ -49,22 +47,64 @@ li {
   font-size: 125%;
 }
 
-a:link, a:visited {
-    border: 1px solid white;
-    color: black;
-    padding: 7px;
-    margin: 7px;
-    text-align: center; 
-    text-decoration: none;
+a {
+  position: relative;
+  background: none;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0.2em solid black;
+  padding: 0.5em;
+  margin: 10px;
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: @background-color;
+    height: 0.3em;
+    right: 20%;
+    top: -0.21em;
+    transform: skewX(-45deg);
+    -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: @background-color;
+    height: 0.3em;
+    left: 20%;
+    bottom: -0.25em;
+    transform: skewX(45deg);
+    -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  &:hover {
+    &::before {
+      right: 80%;
+    }
+    &::after {
+      left: 80%;
+    }
+  }
 }
 
-a:hover, a:active {
-  
-  background-color: grey;
-  border: 1px solid black;
-  
+
+
+#jokehere {
+  font-size: 2em;
+  color:#177E89;
+}
+
+.jokebox{
+  height: 100px;
+  background: #31393C;
+
 }
 
 button {
-  margin: 25px;
+  margin:25px;
 }
