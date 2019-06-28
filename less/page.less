@@ -2,12 +2,13 @@ body {
   width: 960px;
   margin: 0 auto;
   text-align: center;
-  background: @background-color;;
+  background: @background-color;
+  ;
 }
 
 #page {
-height: 100%;
- 
+  height: 100%;
+
 }
 
 #headerimage {
@@ -26,7 +27,9 @@ height: 100%;
   color: black;
 }
 
-#nav, #welcome, #copyright {
+#nav,
+#welcome,
+#copyright {
   padding: 15px;
   margin: 10px;
 }
@@ -35,7 +38,8 @@ height: 100%;
   font-size: 150%;
 }
 
-h2, h3 {
+h2,
+h3 {
   text-transform: uppercase;
 }
 
@@ -56,6 +60,7 @@ a {
   border: 0.2em solid black;
   padding: 0.5em;
   margin: 10px;
+
   &::before {
     content: "";
     display: block;
@@ -69,6 +74,7 @@ a {
     -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
     transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
   }
+
   &::after {
     content: "";
     display: block;
@@ -82,10 +88,12 @@ a {
     -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
     transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
   }
+
   &:hover {
     &::before {
       right: 80%;
     }
+
     &::after {
       left: 80%;
     }
@@ -96,15 +104,15 @@ a {
 
 #jokehere {
   font-size: 2em;
-  color:#177E89;
+  color: #177E89;
 }
 
-.jokebox{
+.jokebox {
   height: 100px;
   background: #31393C;
 
 }
 
 button {
-  margin:25px;
+  margin: 25px;
 }
