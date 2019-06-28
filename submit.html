@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Dad Jokes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <meta name="description"
+        content="Terrible jokes that you never needed to hear. The best worst jokes on the internet. Organized randomly.">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/submit.js" async></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <img src="../images/mustache.png" alt="mustache" id="headerimage" />
+        <h1 id="headertext">Dad Jokes</h1>
+
+        <div id="nav">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="jokes.html">
+                    <li>Dad Jokes</li>
+                </a>
+                <a href="submit.html">
+                    <li>Submit Jokes</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="container">
+
+            <label for="jques" style="font-size: 6rem">Joke Question</label>
+            <textarea type="text" id="jques" name="jokequestion" placeholder="i.e, How many apples grow on a tree?"
+                style="height:75px"></textarea>
+
+            <label for="jans" style="font-size: 6rem">Joke Answer</label>
+            <textarea id="text" name="jokeanswer" placeholder="All of them!" style="height:75px"></textarea>
+
+            <input onclick="submitFunction()" type="submit" value="Submit Joke">
+
+            </form>
+        </div>
+        <footer>
+            <p>Copyright DadJokes 2019</p>
+        </footer>
+    </div>
+</body>
+
+</html>
