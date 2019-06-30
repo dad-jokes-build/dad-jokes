@@ -9,6 +9,7 @@ html {
 html,
 body {
   font-family: 'sans-serif';
+  @phone: ~"(max-width: @{mobile-size})";
 }
 
 h1,
@@ -47,8 +48,4 @@ img {
 .container {
   width: 100%;
   margin: 0 auto;
-
-  @media @phone {
-    width: 100%;
-  }
 }
