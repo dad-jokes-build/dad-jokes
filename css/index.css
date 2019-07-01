@@ -284,25 +284,25 @@ img {
   margin-top: 70px;
   margin-left: 40px;
 }
-h1 {
+.header1 {
   color: black;
-  font-size: 8rem;
+  font-size: 3em;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 75px;
 }
-h1 .banner {
+.header1 .banner {
   margin-left: 500px;
   margin-bottom: 100px;
 }
 @media (max-width: 500px) {
-  h1 .banner {
+  .header1 .banner {
     width: 100%;
     margin-left: 0%;
     font-size: 5rem;
   }
 }
-h1 h3 {
+.header1 h3 {
   color: #1F4A13;
   font-size: 8rem;
   padding: 0;
@@ -311,7 +311,7 @@ h1 h3 {
   margin-bottom: 75px;
 }
 @media (max-width: 800px) {
-  h1 h3 {
+  .header1 h3 {
     width: 100%;
     margin-top: 100px;
     font-size: 5rem;
@@ -319,7 +319,7 @@ h1 h3 {
   }
 }
 @media (max-width: 500px) {
-  h1 h3 {
+  .header1 h3 {
     width: 100%;
     margin-left: 0%;
     margin-top: 100px;
@@ -327,11 +327,11 @@ h1 h3 {
     height: 25px;
   }
 }
-h1 .jokes {
+.header1 .jokes {
   margin-top: 95px;
   background: #99ccff;
 }
-h1 .joke {
+.header1 .joke {
   margin: 3% 10%;
   text-align: center;
   padding: 0 20px 25px;
@@ -343,24 +343,24 @@ h1 .joke {
   box-shadow: 2px 2px 2px lightgrey;
 }
 @media (max-width: 500px) {
-  h1 .joke {
+  .header1 .joke {
     height: 165px;
   }
 }
-h1 .joke h2 {
+.header1 .joke h2 {
   font-size: 45px;
   padding: 0;
   margin: 15px 0 0;
   font-weight: bold;
   color: #b3d9ff;
 }
-h1 .joke p {
+.header1 .joke p {
   font-size: 55px;
   margin-top: 75px;
   font-weight: bolder;
   color: #ffa64d;
 }
-h1 .joke h2 {
+.header1 .joke h2 {
   font-size: 45px;
   padding: 0;
   margin: 15px 0 0;
@@ -368,28 +368,28 @@ h1 .joke h2 {
   color: #b3d9ff;
 }
 @media (max-width: 500px) {
-  h1 .joke h2 {
+  .header1 .joke h2 {
     font-size: 35px;
   }
 }
-h1 .joke p {
+.header1 .joke p {
   font-size: 55px;
   margin-top: 75px;
   font-weight: bolder;
   color: #ffa64d;
 }
 @media (max-width: 500px) {
-  h1 .joke p {
+  .header1 .joke p {
     margin-top: 80px;
     font-size: 35px;
   }
 }
-h1 .joke .close {
+.header1 .joke .close {
   position: absolute;
   top: 10px;
   right: 10px;
 }
-h1 .joke .answerButton {
+.header1 .joke .answerButton {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -401,15 +401,15 @@ h1 .joke .answerButton {
   background-color: #e6e600;
 }
 @media (max-width: 500px) {
-  h1 .joke .answerButton {
+  .header1 .joke .answerButton {
     font-size: 30px;
   }
 }
-h1 .joke .joke-open {
+.header1 .joke .joke-open {
   height: 300px;
 }
 @media (max-width: 500px) {
-  h1 .joke .joke-open {
+  .header1 .joke .joke-open {
     height: 400px;
   }
 }
