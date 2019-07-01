@@ -10,11 +10,14 @@
         content="Terrible jokes that you never needed to hear. The best worst jokes on the internet. Organized randomly.">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/index.js" async></script>
+    <script src="js/contact.js" async></script>
 
 </head>
 
 <body>
+    <div id="header">
+        <img src="../images/mustache.png" alt="mustache" id="headerimage" />
+
     <div id="nav">
     <ul>
         <a href="index.html">
@@ -32,16 +35,16 @@
     </ul>
 </div>
 
-<div class="container">
+<div class="form-container">
     <form action="action_page.php">
 
-        <label for="fname">First Name</label>
+        <label for="fname" style="font-size: 2rem">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-        <label for="lname">Last Name</label>
+        <label for="lname" style="font-size: 2rem">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-        <label for="country">Country</label>
+        <label for="country" style="font-size: 2rem">Country</label>
         <select id="country" name="country">
             <option value="australia">Australia</option>
             <option value="canada">Canada</option>
@@ -49,10 +52,10 @@
             <option value="because-im-sasquatch">A Cave</option>
         </select>
 
-        <label for="subject">Subject</label>
+        <label for="subject" style="font-size: 2rem">Subject</label>
         <textarea id="subject" name="subject" placeholder="What is the subject about? Are you really Sasquatch?" style="height:75px"></textarea>
 
-        <input type="submit" value="Submit">
+        <input onclick="submitFunction()" type="submit" value="Submit">
     </form>
     
 </div>
