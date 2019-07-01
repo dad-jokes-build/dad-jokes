@@ -4,7 +4,7 @@ this is a read me
 
 Credits::::
 
-Denise Chaloupka:::
+Denise Chaloupka:::::  
 Home Page
 Contact Us
 Layout
@@ -13,7 +13,7 @@ Some Images
 Pretty Footer
 
 
-Joshua Crowley
+Joshua Crowley::::: 
 Jokes Page
 Submit Jokes Page
 All the CSS on the Jokes Page
